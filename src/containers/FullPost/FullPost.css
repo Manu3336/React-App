@@ -1,0 +1,47 @@
+.FullPost {
+    width: 70%;
+    margin-left: 290px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color:#fff;
+    color: black;
+    margin-bottom: 25px;
+}
+
+
+.Edit label {
+    display: block;
+    color: grey;
+}
+
+.Edit button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    color: #fa923f;
+}
+
+.Edit button:hover,
+.Edit button:active {
+    color: #521751;
+}
+
+.Edit button.Delete {
+    color: red;
+}
+
+.Edit button.Delete:hover,
+.Edit button.Delete:active {
+    color: darkred;
+}
+
+/* @media(max-width: 640px){
+    .Posts{
+        width: 100%;
+        margin-left: 0px;
+    }
+} */

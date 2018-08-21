@@ -1,0 +1,91 @@
+body {
+    color: #fff;
+    background-color: blueviolet;
+    font-family: Arial, sans-serif;
+}
+.SideMenu{
+    width: 22%;
+    position:fixed;
+    display: block;
+    float: left;
+    background-image: linear-gradient(to right, #c47cf7, #b769f2, #a956ec, #9a42e7, #8a2be2);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.9ms ease-out; 
+    z-index: 10;  
+}
+
+.SideMenu h1{
+    margin-top: 20px;
+    margin-left: 5%;
+
+}
+.SideMenu h5{
+    margin-left: 5%;   
+ }
+.fa-twitter{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.fa-facebook, .fa-search, .fa-linkedin, .fa-home, .fa-suitcase, .fa-comment, .fa-envelope{
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.AwesomeFonts{
+    display:inline-block;
+    color: white;
+}
+
+
+.SearchBox{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    border-radius: 25px;
+    background-color: #C47CF7;
+    width: 90%;
+    height:40px;
+}
+.SearchBar{
+    background: transparent;
+    border: transparent;
+    outline: none;
+    color: white;
+    width: 80%
+
+}
+
+.ListOptions{
+    border-top:  #fff solid 0.5px;
+    padding: 5px;
+    display:block;
+    cursor: pointer;
+}
+
+.ListOptions:hover {
+    background-color: #8676FD;
+    color: white;
+    transform: scale(1.01);
+  }
+
+@media(max-width: 775px){
+    .SideMenu{
+        display: none;
+    }
+}
+
+
+.Open{
+    transform: translateX(0);
+}
+
+.Close{
+    transform: translateX(-100%);
+}
+
+.Logo{
+    height: 11%;
+    width: 75px;
+    margin: auto;
+}
