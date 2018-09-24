@@ -1,0 +1,113 @@
+.MainTile{
+    display: flex;
+    flex-flow: row wrap;
+    scroll-behavior: auto;
+    width: 77%;
+    margin-left: 23%;
+}
+
+.BigTile {
+    width: 40%;
+    height: 480px;
+    background-color: #D42689;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 80px;
+    padding: 5px;
+}
+.BigTileTrans {
+    width: 28%;
+    height: 480px;
+    background-color: #2A3E59;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 80px;
+}
+.Tile3 {
+    width: 100%;
+    background-image: url("./assets/tile-2.jpg");
+    background-size:cover;                      /* <------ */
+    background-repeat:no-repeat;
+    background-position:center center;
+    cursor: pointer;
+    height:  50%;
+}
+.Tile2 {
+    width: 100%;
+    background-color: #FFEF0F;
+    background-position:center center;
+    cursor: pointer;
+    height:  50%;
+    padding: 5px;
+}
+
+.Tile2 p, h3{
+    color: black;
+    word-wrap: break-word;
+}
+
+.Tile4 {
+    width: 28%;
+    background-image: url("./assets/tile-4.jpg");
+    background-size:cover;                      /* <------ */
+    background-repeat:no-repeat;
+    background-position:center center;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 480px;
+    margin-top: 80px;
+}
+.Tile5 {
+    width: 40%;
+    height: 230px;
+    background-image: url("./assets/tile-3.jpeg");
+    background-size:cover;                      /* <------ */
+    background-repeat:no-repeat;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.Tile6{
+    width: 28%;
+    background-color: #40C9F7;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    height:  230px;
+    padding: 5px;
+}
+.Tile6 p, h3{
+    color: black;
+    word-wrap: break-word;
+}
+.Tile7{
+    width: 28%;
+    background-image: url("./assets/tile-7.jpg");
+    background-size:cover;                      /* <------ */
+    background-repeat:no-repeat;
+    background-position:center center;
+    box-sizing: border-box;
+    cursor: pointer;
+    height:  230px;
+}
+
+.ButtonDiv{
+    display: flex;
+    flex-flow: row wrap;
+    scroll-behavior: auto;  
+    margin-top: 100px;
+}
+
+.DemoButton{
+    background: transparent;
+    border-color:#fff;
+    border-style: solid;
+    color: white;
+    padding: 5px;
+    min-width: 100px;
+    margin-left: 15px;
+    border-width: thin;
+}

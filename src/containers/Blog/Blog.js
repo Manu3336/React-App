@@ -10,6 +10,7 @@ import {Route, NavLink, Switch, Redirect} from 'react-router-dom';
 import post from '../../components/Post/Post';
 import SideMenu from '../../components/SideMenu/SideMenu'
 import Header from '../../components/Header/Header';
+import Tile from '../../components/Static-Tiles/Tiles';
 
 class Blog extends Component {
     render () {
@@ -17,11 +18,12 @@ class Blog extends Component {
             <div>
                 <Header/>
                 <SideMenu/>
-                <Switch>
+                <Tile/>
+                {/* <Switch>
                     <Route path ="/new-post" component={NewPost}/>
                     <Route path ="/posts" component={Posts}/>
                     <Redirect from = "/" to="/posts"/>
-                </Switch>    
+                </Switch>     */}
             </div>
         );
     }

@@ -35,6 +35,7 @@ class NewPost extends Component {
         }
         return (
             <div className="NewPost">
+               
                 {redirect}
                 <h1>Add a Post</h1>
                 <label>Title</label>

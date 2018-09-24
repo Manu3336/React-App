@@ -1,19 +1,21 @@
 .Post {
     width: 300px;
     padding: 16px;
-    min-height: 200px;
+    min-height:  100px;
+    /* background-image: url("../../assets/tile-2.jpg"); */
     /* min-width: 290px; */
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     border-radius: 3px;
     margin: 10px;
     box-sizing: border-box;
     cursor: pointer;
-    background-color:#fff;
+    background-color:#D42689;
 }
 
 .Post h1{
-    color: black;
+    color: white;
+    font-family: 'Roboto';
 }
 
 .Post:hover,
@@ -25,7 +27,8 @@
 
 .Author {
     margin: 16px 0;
-    color: black;
+    color: white;
+    font-family: 'Roboto';
 }
 @media(min-width: 500px){
     .SideMenu{

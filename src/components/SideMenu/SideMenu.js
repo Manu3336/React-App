@@ -6,7 +6,7 @@ class SideMenu extends Component{
     render(){
         return(
             <div className="SideMenu">
-                <h1>Brand Name</h1>
+                <h1>Brand</h1>
                 <h5>Windows 8 Metro-like Tiles</h5>
                 <div className="AwesomeFonts">
                     <i class="fa fa-twitter fa-1x" aria-hidden="true" ></i>

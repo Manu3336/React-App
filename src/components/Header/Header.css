@@ -14,7 +14,7 @@
 
 .Header h2{
     color: black;
-
+    
 }
 
 .Line{
@@ -29,5 +29,11 @@
 @media(min-width: 775px){
     .Line{
         display: none;
+    }
+    .Header{
+        width: 100%;
+    }
+    .Header h2{
+       margin: auto;
     }
 }
